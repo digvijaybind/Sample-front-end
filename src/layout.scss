@@ -1,0 +1,99 @@
+// .custom-appbar{
+//     margin-left: 0px !important;
+//     width: 100% !important;
+// }
+
+// .side-nav{
+//     display: none;
+// }
+
+// @media screen and (min-width: 500px)  and (max-width:800px) {
+
+// }
+
+// .mob-sider{
+
+// }
+body {
+  background-image: url("./assets/image/backgroundimage/Withstar.svg");
+  width: "100vw";
+  background-size: "contain !important ";
+  background-repeat: "no-repeat !important";
+}
+.menuIcon {
+  display: none !important;
+}
+.horizontalblur {
+  background-image: url("./assets/image/menu/Horizontalmenu.svg");
+  width: 100vw;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+}
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .MuiDrawer-docked .MuiDrawer-paper {
+    width: 300px !important;
+    position: fixed !important;
+    height: 100vh !important;
+  }
+  .MuiDrawer-docked .MuiDrawer-paper {
+    background: #00121d;
+  }
+  .MuiDrawer-docked {
+    // width: 100px !important;
+  }
+  .menuIcon {
+    display: block !important;
+  }
+  .menuic {
+    color: #d0d4de !important;
+  }
+  .side-list-nav {
+    font-family: PlusjakartaSans;
+
+    .ant-collapse {
+      background: #00121d;
+      border: none;
+    }
+    .ant-collapse-item > .ant-collapse-header {
+      color: #d0d4de;
+      font-size: 15px;
+    }
+    .ant-collapse > .ant-collapse-item {
+      border: 1px solid #00121d;
+    }
+    .ant-collapse-content > .ant-collapse-content-box {
+      background: #00121d !important;
+    }
+    .ant-collapse-content {
+      border-top: none;
+    }
+    .MuiPaper-root-MuiAppBar-root {
+      width: 100%;
+    }
+  }
+  .side-list-header {
+    color: #d0d4de;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+  }
+
+  .side-list-header:hover {
+    background: #00121d;
+  }
+}
+
+.layout-header {
+  background: rgba(255, 255, 255, 0.1) !important;
+  backdrop-filter: blur(140px) !important;
+}
+
+.side-listheader {
+  color: #d0d4de;
+  font-size: 13px;
+}
+
+.mob-sublist {
+  padding: 15px 20px;
+}

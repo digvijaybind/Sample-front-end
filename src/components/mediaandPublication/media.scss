@@ -1,0 +1,21 @@
+.read-link {
+  text-align: end;
+  a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #99f8d0;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .media-content {
+    font-size: 8px !important;
+  }
+  .media-cover {
+    // margin: ;
+    width: 100% !important;
+    text-align: left !important;
+  }
+}

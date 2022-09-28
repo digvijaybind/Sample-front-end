@@ -1,0 +1,541 @@
+.wallet-page-hybridge {
+  background-image: url("../../assets/image/banner/backgroundImage.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.padding-left-cont {
+  padding-left: 5rem !important;
+}
+.hyper-bridge-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-container-hyperbridge {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
+.Maincontainer {
+}
+.CrossChain {
+  font-size: 4.5rem;
+  color: #fff;
+  width: "20px";
+  font-family: PlusjakartaSans !important;
+}
+.SolanaSupport {
+  color: linear-gradient(to right, #4770ff 100%, #87f2e7 100%);
+  font-size: 0.7rem;
+  font-family: PlusjakartaSans !important;
+}
+.EnterApp {
+  background: #4770ff;
+  border-radius: 5px;
+  margin-right: 60px;
+  font-family: PlusjakartaSans !important;
+}
+.Descripation {
+  color: #d0d4de;
+  font-size: 1rem;
+  font-family: PlusjakartaSans !important;
+}
+.IntegrateChain {
+  padding: 0rem 7rem 0rem 9rem;
+}
+.dollarvalue {
+  color: #46ffbc;
+  font-family: PlusjakartaSans !important;
+}
+.totalTitle {
+}
+.Numbertitle {
+}
+.wholewrapper {
+  padding-top: 50px;
+  margin-bottom: 91px;
+}
+.Hyperbride-padding {
+  paddiing: 10px;
+}
+.IntegrateEVM {
+  background-image: url("../../assets/image/backgroundimage/Maskgroup.png");
+  background-repeat: no-repeat;
+  background-color: unset !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background-size: cover;
+}
+.IntegarateWrapper {
+  background-image: url("../../assets/image/backgroundimage/Maskgroup.png");
+  background-repeat: no-repeat;
+  background-color: unset !important;
+  background-size: contain;
+  // background-size: cover;
+}
+.card-list-duplicate {
+  margin: 0px;
+  height: 250px !important;
+  font-size: 16px;
+}
+.cards-title-hyperbridge {
+  font-family: PlusjakartaSans_bold;
+  font-weight: 700;
+  font-size: 36px;
+  color: #d0d4de;
+  padding: 0px 147px 0px 193px;
+}
+.desc-font-hyperbridge {
+  font-family: "PlusjakartaSans" !important;
+  font-weight: 400;
+  font-size: 16px;
+  color: #d0d4de;
+}
+.SolanaSupport {
+  font-family: PlusjakartaSans !important;
+}
+.Leftside {
+  display: flex;
+  justify-content: center;
+}
+.Leftwarpper {
+  border-right: 2px solid gray;
+}
+.ButtonandContent {
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+}
+.WaveBackground {
+  background-image: url("../../assets/image/hyperbridge/Wavebackground.svg");
+  width: 100px;
+  background-size: cover;
+}
+.Row2 {
+  background: #02040f;
+}
+.subContainer {
+  background-image: url("../../assets/image/hyperbridge/backgroundimge.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hyper-brodeImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-desc-hyperbridge {
+  font-size: 32px;
+  font-family: PlusjakartaSans_bold;
+  font-weight: 700;
+  text-align: center;
+  color: #d0d4de;
+}
+.doller-text {
+  font-family: PlusjakartaSans_bold !important;
+  font-size: 64px;
+}
+
+.dollet-head {
+  font-family: PlusjakartaSans !important;
+  color: #d0d4de;
+  font-size: 24px;
+}
+
+.dollet-head {
+  b {
+    font-size: 30px;
+    font-weight: 600;
+    color: #d0d4de;
+    padding-right: 5px;
+  }
+}
+
+.solona-text {
+  font-size: 15px;
+  color: #d0d4de;
+}
+
+.hyper-multi-block {
+  /* // background-image: url('../../assets/image/hyperbridge/IntegrateEVM.jpg'); */
+  background-image: url("../../assets/image/hyperbridge/Wavebackground.svg");
+
+  background-repeat: no-repeat;
+  background-color: unset !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* // padding: 0 3rem; */
+  background-size: cover;
+  padding: 96px 135px 138px 104px !important;
+  border-radius: 15px;
+}
+
+.img-hyper {
+  display: flex;
+  justify-content: center;
+}
+
+.desc-font {
+  color: #d0d4de;
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-family: PlusjakartaSans !important;
+}
+.desc-font-hyperbridge {
+  color: #d0d4de;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: PlusjakartaSans !important;
+  padding: 0px 31px 66px 50px;
+}
+
+.desc-title {
+  color: #d0d4de;
+  font-size: 26px;
+  font-weight: 600;
+}
+.desc-title-hyperbridge {
+  color: #d0d4de;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 50px 55px 0px 50px;
+}
+
+.overall {
+  font-weight: 600;
+  margin: 10px 0px 20px 0;
+}
+
+.bullet-content {
+  display: grid;
+  grid-template-columns: 8% auto;
+  align-items: center;
+}
+
+.bullet-title {
+  font-size: 16px;
+}
+
+.ml-chain {
+  // height: 100px;
+}
+
+.bullet-view-box {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(54px);
+  border-radius: 20px;
+  width: 100px;
+  background-size: cover;
+  padding: 50px;
+  margin: 2rem 0 !important;
+}
+
+.pro-card {
+  margin: 2rem 0;
+}
+
+.last-desc {
+  color: #d0d4de;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.l-content {
+  text-align: center;
+}
+
+.margin-content {
+  margin: 2rem 0 !important;
+  padding: 35px;
+}
+.margin-content-hyperbridge {
+  margin: 170px 0px 150px 0px;
+  padding: 35px;
+}
+.bridge-audit {
+  width: 100%;
+}
+.productionWrapper {
+  background: linear-gradient(
+    60.37deg,
+    rgba(255, 255, 255, 0.064) 31.29%,
+    rgba(110, 250, 235, 0.2) 74.69%
+  );
+  display: flex;
+
+  border-radius: 10px;
+  width: 80%;
+  padding: 60px 60px 60px 51px;
+}
+
+.desc-bridgeimg {
+  display: block;
+}
+
+.mob-bridgeimg {
+  display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .wallet-page-hybridge {
+    background-image: url("../../assets/image/banner/HyperbrigeMobile.svg") !important;
+
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+  }
+  .bridge-audit {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 30px !important;
+  }
+
+  .productionWrapper {
+    padding: 20px 20px 20px 20px !important;
+  }
+
+  .bridge-audit-title {
+    font-size: 26px !important;
+    margin-bottom: 25px !important;
+  }
+  .IntegrateEVM {
+    background-size: cover !important;
+  }
+  .padding-left-cont {
+    padding-left: 0px !important;
+  }
+  .desc-title-hyperbridge {
+    color: #d0d4de;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0px !important;
+  }
+  .desc-font-hyperbridge {
+    color: #d0d4de;
+    font-size: 0.8rem;
+    font-weight: 400;
+    font-family: PlusjakartaSans !important;
+    padding: 0px !important;
+  }
+  .wholewrapper {
+    padding-top: 10px;
+  }
+  .hyper-multi-block {
+    background-image: url("../../assets/image/hyperbridge/Wavebackground.svg");
+
+    background-repeat: no-repeat;
+    background-color: unset !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px !important;
+    background-size: cover;
+    padding: 30px !important;
+
+    border-radius: 15px;
+    .MuiGrid-item {
+      padding-left: 0px !important;
+    }
+  }
+  // .wallet-page-hybridge {
+  //   background-image: url("../../assets/image/banner/backgroundImage.svg") !important;
+  //   background-repeat: no-repeat !important;
+  //   background-size: cover !important;
+  // }
+  .margin-content {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cmn-sub-title2 {
+    color: #5d6774;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: PlusjakartaSans;
+  }
+  .cmn-title2 {
+    color: #d0d4de;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: PlusjakartaSans_bold;
+  }
+  .card-list-duplicate {
+    margin: 0px;
+    height: 180px !important;
+    font-size: 16px;
+  }
+  .desc-font-hyperbridge {
+    font-family: "PlusjakartaSans" !important;
+    font-weight: 400;
+    font-size: 10px !important;
+    color: #d0d4de;
+  }
+  .overall {
+    font-size: 14px;
+    font-family: PlusjakartaSans_bold;
+  }
+  .bridge-gap {
+    font-size: 10px !important;
+  }
+  .walt-2-landing {
+    text-align: initial !important;
+  }
+  .hyper-bridge-top {
+    position: unset !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 40px 0;
+  }
+  .hyper-brodeImg {
+    position: absolute !important;
+    width: 100% !important;
+  }
+  .walt-top-btn {
+    z-index: 1 !important;
+  }
+  .walt-top-title-bridge {
+    text-align: initial !important;
+    font-size: 14px;
+    font-family: PlusjakartaSans_bold;
+  }
+
+  .Leftwarpper {
+    border-right: 2px solid gray;
+  }
+  .desc-font {
+    font-size: 12px;
+    font-family: PlusjakartaSans !important;
+    margin-bottom: 16px !important;
+  }
+  .desc-title {
+    font-size: 20px;
+  }
+  .last-desc {
+    font-size: 0.9rem;
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 700;
+    padding: 30px;
+
+    /* or 178% */
+
+    text-align: center;
+
+    /* Main white */
+
+    color: #d0d4de;
+  }
+  .each-product {
+    width: 100%;
+  }
+  .hyper-brodeImg {
+    width: 80%;
+    margin: 2rem 0;
+  }
+  .productionWrapper-hyperbridge {
+    flex-wrap: wrap;
+    padding: 36px 44px;
+    display: flex;
+    background: linear-gradient(
+      60.37deg,
+      rgba(255, 255, 255, 0.064) 31.29%,
+      rgba(110, 250, 235, 0.2) 74.69%
+    );
+    display: flex;
+    border-radius: 10px;
+    width: 80%;
+  }
+  .doller-text {
+    font-size: 16px;
+  }
+  .Leftwarpper {
+    border: none;
+  }
+  .dollet-head {
+    font-size: 8px !important;
+  }
+  .doller-container {
+    text-align: center;
+  }
+  .solona-text {
+    font-size: 10px;
+  }
+  .dollet-head b {
+    font-size: 12px;
+  }
+  .multi-block-chai .MuiGrid-item {
+  }
+  .hyper-multi-mobile {
+    display: flex;
+    padding: 26px;
+    justify-content: center;
+  }
+
+  .bullet-view-box {
+    padding: 13px;
+    .MuiGrid-item {
+      padding-left: 0 !important;
+    }
+  }
+  .Headine1 {
+    font-family: PlusjakartaSans_bold;
+
+    font-size: 2.5rem;
+  }
+  .each-product {
+    margin: 10px;
+    background: #0c1120;
+    opacity: 0.9;
+    border: 1px solid #99f8d0;
+    box-shadow: -3px -9px 24px -9.5px #5deeb1;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    // width: 30%;
+  }
+  .productRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px !important;
+  }
+  .hyper-launch-box {
+    width: 50%;
+  }
+
+  .right-lanch {
+    display: flex;
+    justify-content: center;
+  }
+  .last-desc-hyperbridge {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    text-align: center;
+
+    /* Main white */
+
+    color: #d0d4de;
+  }
+  .desc-bridgeimg {
+    display: none !important;
+  }
+
+  .mob-bridgeimg {
+    display: block !important;
+    width: 100% !important;
+  }
+}

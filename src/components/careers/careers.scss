@@ -1,0 +1,295 @@
+.career-Container {
+  padding: 7rem 0;
+}
+
+.career-header {
+  font-size: 48px;
+  color: #d0d4de;
+  text-align: center;
+  font-weight: 600;
+}
+.profile-container-career {
+  background: linear-gradient(
+      89.79deg,
+      rgba(255, 255, 255, 0.14) 17.54%,
+      rgba(0, 0, 0, 0) 80.59%
+    ),
+    linear-gradient(
+      60.37deg,
+      rgba(255, 255, 255, 0.064) 31.29%,
+      rgba(110, 250, 235, 0.2) 74.69%
+    );
+  padding: 25px;
+  border-radius: 20px;
+  text-align: start;
+  margin: 20px 33px !important;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .career-header {
+    font-size: 32px !important;
+    font-family: PlusjakartaSans_bold !important;
+  }
+  .career-header-opening {
+    font-size: 24px !important;
+    color: #d0d4de;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+.career-description {
+  text-align: center;
+  color: #d0d4de;
+  font-size: 15px;
+  margin-top: 10px !important;
+}
+
+.career-whole-container {
+  font-family: PlusjakartaSans;
+}
+
+.culture-container {
+  text-align: center;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cult-title {
+  color: #d0d4de;
+  font-size: 14px !important;
+  font-family: PlusjakartaSans_bold;
+}
+
+.cult-sub-title {
+  color: #d0d4de;
+  font-size: 0.8rem !important;
+  margin: 1.5rem 0;
+  font-family: PlusjakartaSans !important;
+}
+
+.culture-main {
+  width: 100%;
+  text-align: center;
+  // background: rgba(75, 191, 241, 0.43);
+}
+
+.base {
+  background: #00121d;
+}
+
+.car-left-list {
+  display: grid;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  bottom: 20px;
+}
+
+.car-list {
+  // height: 50px;
+  color: #d0d4de;
+}
+
+.car-right-list {
+  display: grid;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.car-listing {
+  padding: 2rem 0 !important;
+  position: relative;
+  margin-bottom: 3rem !important;
+}
+
+.career-profiles {
+  margin: 2rem 0 !important;
+}
+
+.team-head {
+  margin: 2rem 0 !important;
+}
+
+.car-team-footer {
+  color: #99f8d0;
+  font-size: 15px;
+  text-align: start;
+  padding-left: 3rem;
+}
+
+.car-position {
+  color: #d0d4de;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.location-show {
+  display: flex;
+  align-items: center;
+  width: auto;
+  color: #ffffff;
+  padding-right: 1rem;
+  margin: 1rem 0;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.open-jobs {
+  padding: 1.5rem !important;
+  margin: 1rem 0 !important;
+}
+.Internship-wrapper {
+  margin: 1rem 0 !important;
+  background: linear-gradient(
+      89.79deg,
+      rgba(255, 255, 255, 0.14) 17.54%,
+      rgba(0, 0, 0, 0) 80.59%
+    ),
+    linear-gradient(
+      60.37deg,
+      rgba(255, 255, 255, 0.064) 31.29%,
+      rgba(110, 250, 235, 0.2) 74.69%
+    );
+  padding: 25px;
+  border-radius: 20px;
+  text-align: start;
+
+  height: -moz-fit-content;
+}
+.rect_img {
+  height: 55vh;
+}
+
+.add-blur {
+  // position: relative !important;
+  // background: linear-gradient(272.02deg, #46FFBC -0.03%, rgba(46, 67, 255, 0.65) 98.26%);
+  // filter: background(400px);
+  // background: linear-gradient(
+  //   272.02deg,
+  //   #46ffbc -0.03%,
+  //   rgba(46, 67, 255, 0.65) 98.26%
+  // );
+  // filter: blur(254px);
+}
+
+.blur-bg {
+  // background-color: transparent;
+}
+
+.list-mobile {
+  display: none !important;
+}
+.list-desktop {
+  display: block;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .rect_img {
+    height: 48vh;
+  }
+  .career-Container {
+    margin: 6rem 0 !important;
+  }
+  .car-list {
+    font-size: 10px;
+  }
+  .location-show {
+    width: auto !important;
+  }
+  .career-in-content {
+    font-size: 12px !important;
+    font-family: PlusjakartaSans !important;
+    color: #d0d4de;
+
+    opacity: 0.7;
+  }
+  .location-show {
+    margin: 5px 0 !important;
+    font-size: 10px;
+  }
+  .btnTest {
+    margin: 1rem 0 !important;
+    text-align: center !important;
+    button {
+      .btnContainer {
+        padding: 5px 10px !important;
+      }
+    }
+  }
+  .team-head {
+    margin: 2rem 0 0 0 !important;
+    font-size: 32px;
+  }
+  .cult-sub-title {
+    color: #d0d4de;
+    font-size: 10px !important;
+    margin: 10px 0;
+    font-family: PlusjakartaSans !important;
+  }
+  .career-in-content {
+    font-size: 12px;
+  }
+  .list-mobile {
+    display: block !important;
+  }
+  .list-desktop {
+    display: none !important;
+  }
+  .profile-container-career {
+    margin: 5px !important;
+  }
+  .profile-name {
+    font-size: 9px !important;
+  }
+  .profile-desg {
+    font-size: 7px !important;
+  }
+  .career-profiles {
+    margin: 2rem 0 0 0 !important;
+  }
+  .car-team-footer {
+    font-size: 8px;
+    font-weight: 400;
+  }
+  .car-position {
+    font-size: 14px !important;
+  }
+  .location-show {
+    font-size: 12px !important;
+  }
+  .Internship-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 15px !important;
+  }
+  .car-listed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .car-list {
+    margin: 15px 0 !important;
+    font-size: 16px;
+    color: #d0d4de;
+    font-weight: 700;
+  }
+
+  .car-right-lists {
+    text-align: start;
+  }
+  .rect_img {
+    height: 65vh;
+  }
+  .list-mobile {
+    margin: 20px 0 !important;
+  }
+}
+
+.profie {
+  margin: 10px !important;
+}

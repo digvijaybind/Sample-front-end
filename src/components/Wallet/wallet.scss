@@ -1,0 +1,275 @@
+.walt-top-title {
+  color: #d0d4de;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.walt-sub-title {
+  font-family: PlusjakartaSans !important;
+  color: hsl(223, 7%, 63%);
+  font-size: 16px;
+}
+
+.wallet-whole-container {
+  // margin: 2rem;
+}
+
+.info-wallet-Container {
+  margin: 2rem 0 !important;
+}
+
+.walt-cross-title {
+  color: #d0d4de;
+  font-size: 32px;
+  padding: 2rem 0 1rem 0 !important;
+}
+
+.lan-cross-image {
+  img {
+    height: 100vh;
+  }
+}
+
+.img-google {
+  margin-left: 1rem;
+}
+
+.walt-crosssub-title {
+}
+
+.walt-chain-title {
+  font-size: 40px;
+  color: #d0d4de;
+  font-weight: 600;
+}
+
+.asset-wallet-Container {
+  margin: 2rem 0 !important;
+}
+
+.google-btn {
+  margin: 1rem 0 !important;
+}
+
+.walt-desk-title {
+  margin-bottom: 1rem;
+}
+
+.desktopHeader {
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.cross-icon-view {
+  text-align: center;
+  img {
+    width: 15%;
+  }
+}
+
+.top-wallet {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  // grid-template-columns: 40% 60%;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  div {
+    width: 50%;
+  }
+}
+
+.wallet-top-left {
+  // position: relative ;
+  // left: 30% ;
+  display: contents;
+}
+
+.cross-card .MuiGrid-item {
+  margin: 2rem;
+}
+
+.test {
+  width: 20%;
+}
+
+.trans-wyre {
+  margin: 1.5rem 0;
+  img {
+    width: 15%;
+    margin-right: 2rem;
+  }
+}
+
+.dot-image {
+  width: 70%;
+}
+
+.dot-line-name {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  color: #d0d4de;
+  font-size: 20px;
+  position: relative;
+  font-weight: 500;
+  div {
+    position: relative;
+    right: 20px;
+  }
+}
+
+.side-wallet-Container {
+  padding: 3rem 0 0 0 !important;
+}
+
+.wallet-page {
+  overflow: hidden;
+  font-family: PlusjakartaSans;
+  max-width: 100% !important;
+  // margin: 0 auto !important;
+  // background-image: url("../../assets/image/banner/backgroundImage.svg");
+  // background-repeat: no-repeat;
+  // background-size: 100%;
+  // object-fit: fill;
+}
+
+.walt-2 {
+  position: relative;
+  left: 100px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .IntegrateEVM-wallet {
+    background-image: url("../../assets/image/backgroundimage/Maskgroup.png");
+    background-repeat: no-repeat;
+    background-color: unset !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-size: cover !important;
+  }
+  .walt-2 {
+    position: relative;
+    left: 0px;
+  }
+  .trans-wyre img {
+    width: 30% !important;
+  }
+  .wlt-title-center {
+    text-align: center !important;
+  }
+  .cross-icon-view {
+    img {
+      width: 25%;
+      margin-bottom: 20px;
+    }
+  }
+  .card-duplicate {
+    text-align: center;
+  }
+  .cross-icon-text {
+    font-size: 18px !important;
+  }
+  .wallet-top-content {
+    padding-bottom: 50px;
+  }
+  .side-wallet-Container {
+    padding: 5rem 0 0 0 !important;
+  }
+  // .wallet-top-left {
+  //   position: unset;
+  //   left: 0px;
+  // }
+  .walt-top-title {
+    font-family: PlusjakartaSans !important;
+    font-size: 14px;
+    text-align: center;
+    color: #d0d4de;
+  }
+
+  .walt-content {
+    text-align: center;
+  }
+  .walt-sub-title {
+    font-size: 12px;
+  }
+  .top-wallet div {
+    width: 100%;
+    // margin-bottom: 1rem;
+  }
+  .dot-image {
+    width: 100%;
+  }
+  .dot-line-name {
+    width: 120%;
+    font-size: 10px;
+  }
+  .walt-chain-title {
+    font-family: PlusjakartaSans !important;
+    font-size: 25px;
+  }
+  .walt-cross-title {
+    font-size: 25px;
+  }
+  .card-duplicate {
+    margin: 0px;
+    height: 200px;
+    font-size: 16px;
+  }
+  .dot-line {
+    text-align: center;
+  }
+  .trans-wyre {
+    text-align: center;
+  }
+  .cross-card {
+    margin: 0px !important;
+  }
+  .top-wallet {
+    margin-top: 2rem;
+  }
+  .wallet-top-left {
+    z-index: 11 !important;
+    position: unset !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 40px 0;
+  }
+  .wallet-top-right {
+    position: absolute !important;
+    width: 100% !important;
+    top: -135px;
+  }
+  .walt-content {
+    z-index: 11 !important;
+  }
+  .wrap-grid {
+    flex-wrap: wrap-reverse !important;
+  }
+  .wallet-asset {
+    display: flex !important;
+    justify-content: flex-start !important;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 768px) {
+  .walt-top-title {
+    font-size: 26px;
+  }
+  .walt-2 {
+    padding-left: 2rem;
+  }
+  .walt-chain-title {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 2500px) {
+  .walt-top-title {
+  }
+  .walt-2 {
+    padding-left: 5rem;
+  }
+}

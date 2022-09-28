@@ -1,0 +1,380 @@
+.stack-icon-view {
+  color: #ffffff;
+  font-size: 12px;
+}
+.stack-top {
+  display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // grid-template-columns: 40% 60%;
+  flex-wrap: wrap;
+  position: relative;
+}
+.stack-top-left {
+  width: 40%;
+  position: relative;
+  left: 200px;
+  top: 70px;
+}
+.stack-top-right {
+  width: 60%;
+  height: 85vh;
+  img {
+    height: 100vh;
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+.stack-cross-card {
+  margin: 3rem 0 !important;
+}
+
+.stack-desc {
+  height: 100px;
+  text-align: start;
+}
+
+.stack_chain {
+  display: block;
+  text-align: center;
+}
+
+.HyperStake-wrapper-integratebackground {
+  background-image: url("../../assets/image/backgroundimage/Maskgroup.png");
+  background-repeat: no-repeat;
+  background-color: unset !important;
+  background-size: cover;
+}
+.multi-chain-card {
+  color: #d0d4de;
+  background: #182835;
+  border-radius: 20px;
+  height: fit-content;
+  margin: 10px !important;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.walt-top-btn {
+  margin-top: 30px !important;
+}
+.stack-icon-des {
+  font-size: 13px !important;
+  font-family: PlusjakartaSans;
+}
+
+.card-views {
+  color: #d0d4de;
+  background: linear-gradient(
+    21.94deg,
+    rgba(255, 255, 255, 0.064) -6.63%,
+    rgba(110, 250, 235, 0.2) 85.24%
+  );
+  border-radius: 20px;
+  padding: 1rem !important;
+  height: fit-content;
+  margin: 10px !important;
+  height: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hy-card {
+}
+
+.stack-header {
+  font-family: PlusjakartaSans;
+  color: #d0d4de;
+  font-size: 2rem;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center !important;
+  padding: 5rem 2rem !important;
+}
+
+.stack {
+  width: fit-content;
+}
+
+.card-header {
+  color: #d0d4de;
+  font-size: 36px;
+  font-family: PlusjakartaSans_bold !important;
+}
+.st-bullet {
+  height: 130px;
+}
+
+.bullet-list {
+  color: #d0d4de;
+  font-size: 20px;
+  flex-wrap: wrap;
+  padding-left: 15px;
+  font-family: "PlusjakartaSans";
+}
+.wholeImagewrapper {
+  margin-bottom: 3rem !important;
+}
+
+ul li::before {
+  // content: "•";
+  // color: #99F8D0;
+}
+
+.stack-box {
+  margin: 1rem;
+}
+
+.inner-box {
+  // background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(15px);
+  background-image: url("../../assets/image/hyperstack/Regtanglesstationary.svg");
+  height: 93vh;
+  padding-top: 70px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.InnerContainer {
+  height: 170px;
+}
+
+.hy-stack {
+  // padding-left: 4rem;
+}
+
+.stack-count {
+  width: 100%;
+}
+.innerbackground {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 40px;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(15px);
+}
+.count-number-hyperstack {
+  font-family: PlusjakartaSans !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 100%;
+  /* identical to box height, or 96px */
+
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: #99f8d0;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.swap-trade-hyperstake {
+  text-align: center;
+  margin-bottom: 2rem;
+  background-image: url("../../assets/image/hyperstack/Mobile&Rectangle.svg");
+  background-repeat: no-repeat !important;
+  background-color: unset !important;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  /* // padding: 0 3rem; */
+  background-size: auto;
+  height: 116vh;
+  border-radius: 15px;
+}
+.count-name-hyperstack {
+  font-family: PlusjakartaSans !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 125%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  opacity: 0.66;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.swap-mobile-hyperstake {
+  text-align: start;
+  position: relative;
+  bottom: 177px;
+  left: 38px;
+}
+.stack-statement {
+  margin: 4rem 0 !important;
+}
+.stack-mobile {
+  color: #d0d4de;
+
+  font-family: PlusjakartaSans_bold !important;
+}
+.info-wrap {
+  font-size: 1rem !important;
+  color: #d0d4de;
+  font-family: PlusjakartaSans_bold;
+}
+.Content1Mobile {
+  padding-bottom: 26px;
+  font-size: 30px;
+  font-family: PlusjakartaSans_bold !important;
+}
+.Content2Mobile {
+  opacity: 0.7;
+  text-decoration-line: underline;
+  margin: 10px 0;
+}
+.icon-details {
+  display: contents;
+}
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .swap-trade-hyperstake {
+    background-image: url("../../assets/image/hyperstack/mob-stack.svg");
+    height: 35vh !important;
+    background-size: cover !important;
+  }
+  .swap-mobile-hyperstake {
+    text-align: start;
+    position: relative;
+    bottom: 27px;
+    left: 45px;
+  }
+
+  .Content2Mobile {
+    font-size: 11px !important;
+  }
+  .stacktoken-mob {
+    font-size: 11px;
+  }
+  .count-number-hyperstack {
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem !important;
+    line-height: 100%;
+    /* identical to box height, or 96px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #99f8d0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .count-name-hyperstack {
+    font-family: PlusjakartaSans !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.7rem;
+    line-height: 125%;
+    /* identical to box height, or 30px */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+
+    opacity: 0.66;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .hy-stack {
+    padding-left: 0 !important;
+  }
+  .stack-header {
+    font-size: 15px !important;
+  }
+  .overall {
+    padding: 0 16px 16px 0;
+    font-size: 16px;
+    font-family: PlusjakartaSans_bold;
+  }
+
+  // Mobile
+  .walt-top-title {
+    text-align: start !important;
+  }
+  .stack-top-left {
+    position: unset !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 40px 0;
+  }
+  .stack-top-right {
+    position: absolute !important;
+    width: 100% !important;
+    top: -10px;
+  }
+  .btn-zindex {
+    z-index: 1 !important;
+  }
+  .hy-stack {
+    text-align: start;
+  }
+  .icon-details img {
+    height: 40px;
+    width: 24%;
+  }
+
+  .stack-cross-card {
+    margin: 1rem 0 !important;
+  }
+
+  .MuiGrid-root {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .st-bullet {
+    height: 125px;
+  }
+
+  .inner-box {
+    height: 80vh;
+    padding-top: 50px;
+  }
+  .stack-desc {
+    font-size: 14px;
+  }
+
+  .innerbackground {
+    padding: 14px;
+  }
+
+  .count-number {
+    font-size: 24px !important;
+  }
+
+  .count-name {
+    font-size: 5.88521px !important;
+  }
+}

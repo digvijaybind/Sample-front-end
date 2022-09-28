@@ -1,0 +1,44 @@
+.btnContainer {
+  background: #4770ff !important;
+  color: white !important;
+  text-transform: capitalize !important;
+  padding: 10px 27px !important;
+  border-radius: 15px !important;
+  // box-shadow: -2px -19px 27px -11px rgba(20, 114, 255, 0.45);
+  text-align: center;
+  display: flex;
+  font-size: 20px !important;
+  font-family: PlusjakartaSans !important;
+
+  // box-shadow: -1px -5px 12px 1px #4770fe;
+
+  // width: fit-content;
+}
+
+.btnImage {
+  padding-left: 1rem;
+  // width: 20%;
+}
+.btnMain {
+  display: contents;
+  // flex-wrap: nowrap;
+  color: #d0d4de;
+  font-size: 20px !important;
+}
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .btnMain {
+    font-family: "PlusjakartaSans" !important;
+    font-size: 9px !important;
+    font-weight: 400;
+    color: #d0d4de;
+    // width: 119px;
+    display: block;
+  }
+  .btnImage {
+    width: 25px;
+  }
+  .btnContainer {
+    border-radius: 8px !important;
+    padding: 8px 14px !important;
+  }
+}

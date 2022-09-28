@@ -1,0 +1,4 @@
+in hyperstake 
+to container content and image managnement
+ second row and card background color
+

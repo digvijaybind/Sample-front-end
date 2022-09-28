@@ -1,0 +1,97 @@
+.partner-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.career-header-partnership {
+  font-size: 48px;
+  color: #d0d4de;
+  text-align: center;
+  font-weight: 600;
+}
+.blog-box-partner {
+  border-radius: 10px;
+  margin: 10px !important;
+
+  border-radius: 16px;
+}
+.partner-in-content {
+  font-size: 16px !important;
+  font-family: PlusjakartaSans !important;
+  color: #d0d4de !important;
+}
+.partner-in-content div {
+  text-decoration: underline;
+}
+.sub-partner {
+  display: flex;
+  width: 80%;
+  padding: 3rem;
+  border-radius: 10px;
+  background: #ffffff05;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-heading {
+  color: #d0d4de;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: PlusjakartaSans_bold;
+}
+.PartnerTitle {
+  // font-family: 'PlusJakartaSansRegular';
+  // src: url(${PlusJakartaSansRegular}) format('ttf');
+  // font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 2rem;
+  color: #d0d4de;
+}
+
+.logo-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.each-img {
+  width: 150px;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 135px;
+}
+
+.Partnerimg {
+  width: 177px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 650px) {
+  .each-img {
+    width: 100px !important;
+    height: 88px !important;
+  }
+  .logo-content {
+  }
+  .partner-heading {
+    font-size: 14px !important;
+  }
+  .partner-in-content {
+    font-size: 12px !important;
+    font-family: PlusjakartaSans !important;
+    color: #d0d4de !important;
+  }
+  .partner-blog {
+    .MuiGrid-item {
+      padding-left: 0px !important;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#root {
+  height: 100vh;
+}
+.App {
+  overflow: hidden;
+  position: relative;
+}
+.App .bg-landing:first-child {
+  background-image: url(https://coin98.com/static/media/background-banner1.78f4f742.png);
+  -webkit-animation: scale-frames 60s ease infinite;
+  animation: scale-frames 60s ease infinite;
+}
+.App .bg-landing:nth-child(2) {
+  background-image: url(https://coin98.com/static/media/background-banner2.429ade1b.png);
+  -webkit-animation: scale-frames-two 60s ease infinite;
+  animation: scale-frames-two 60s ease infinite;
+}
+.App .bg-landing:nth-child(3) {
+  background-image: url(https://coin98.com/static/media/background-banner3.bc6fb40c.png);
+  -webkit-animation: scale-frames-three 60s ease infinite;
+  animation: scale-frames-three 60s ease infinite;
+}

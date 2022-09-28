@@ -1,0 +1,136 @@
+
+.audit-header-title{
+    font-weight: 700;
+font-size: 36px;
+color: #D0D4DE;
+font-family: PlusjakartaSans_bold !important;
+
+}
+
+.audit-header-sub-title{
+  
+    font-size: 16px;
+    color: #D0D4DE;
+    margin-top: 15px;
+    font-family:PlusjakartaSans !important;
+}
+.auditLeft{
+    padding-left: 40px !important;
+}
+
+@media only screen  and (min-width:768px) {
+    .auditLeft {
+        /* width: 50% !important; */
+    }
+
+    .auditRight {
+        width: 50% !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .Headine2{
+        font-size: 0.8rem;
+    }
+}
+
+.AuditSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Auditwrapper {
+    padding: 3rem;
+    width: 80%;
+    display: flex;
+    background: linear-gradient(60.37deg,
+            rgba(255, 255, 255, 0.064) 31.29%,
+            rgba(110, 250, 235, 0.2) 74.69%);
+    backdrop-filter: blur(34px);
+    border-radius: 10px;
+}
+
+ .auditLeft{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1em;
+    flex-direction: column;
+}
+
+.auditRight {
+    padding: 1rem 0rem 1rem 1rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+    color: #d0d4de;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.audit-btn {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.each-audit {
+    
+    margin: 6px 10px;
+    height: 55px;
+    background: #0C1120;
+    opacity: 0.9;
+    border: 1px solid #99F8D0;
+    box-shadow: -3px -9px 24px -9.5px #5DEEB1;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-content{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Headine2{
+    font-weight: 400;
+    
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #d0d4de;
+    font-family: PlusjakartaSans !important;
+}
+
+.state-list{
+    font-family: PlusjakartaSans;
+    font-weight: 700;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: #d0d4de;
+}
+
+@media only screen and (min-width:200) and (max-width: 650px){
+ .auditRight {
+
+    border: 0px !important;
+
+ }
+.Headine1{   
+
+    font-family: PlusjakartaSans_bold !important;
+    font-size: 2.5rem !important;
+
+}
+.auditLeft{
+    /* width:100% !important; */
+}
+.mob-width{
+    width: 100% !important;
+}
+
+}

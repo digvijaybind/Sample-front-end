@@ -1,0 +1,369 @@
+.header-Container {
+  padding-bottom: 10px;
+  position: relative;
+  top: 73px;
+}
+
+.lan-evm-image {
+  text-align: center;
+}
+
+.info-evm-Container {
+  // margin: 1rem 0 4rem 0 !important;
+}
+
+.animationImgs {
+  width: 80%;
+}
+.Headine1 {
+  font-family: PlusjakartaSans !important;
+  color: #d0d4de;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Headline2 {
+  font-family: PlusjakartaSans !important;
+  color: #d0d4de;
+  font-size: 0.8rem;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.launch-whole-container {
+  font-family: PlusjakartaSans;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.launch-product-right {
+  padding: 0px !important;
+}
+
+.font-color {
+  background: linear-gradient(88.49deg, #7afbe4 48.72%, #4a54f4 84.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700 !important;
+}
+
+.lan-header {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 8rem;
+}
+
+.lan-description {
+  text-align: center;
+  color: #d0d4de;
+  position: relative;
+  bottom: 20px;
+  font-size: 24px;
+}
+
+.curve-bg {
+  background-image: url("../../assets//image/hyperLaunch/Hero_section.svg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+.info-Container {
+  padding: 22rem 0 0 0;
+  // border-top: 1px solid gray;
+  // border-top-left-radius: 20px;
+}
+
+.lan-info-container {
+  color: #d0d4de;
+  text-align: center;
+  font-size: 64px;
+  // font-weight: 500;
+}
+
+.lan-info-header {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.lan-hyper {
+  margin: 4rem 0;
+  width: 80% !important;
+}
+
+.lan-evm-content {
+  text-align: center;
+  color: #d0d4de;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.evm-text {
+  text-align: start;
+  padding-left: 5rem;
+  color: #d0d4de;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: PlusjakartaSans !important;
+}
+
+.launchPad-evm {
+  text-align: center;
+}
+
+.cads-header {
+  text-align: center;
+  color: #d0d4de;
+  font-size: 1rem;
+}
+
+.each-cards {
+  margin: 2rem 0 !important;
+}
+
+.each-cards .MuiGrid-item {
+  padding: 4rem 3rem !important;
+}
+
+.cards-title {
+  color: #d0d4de;
+  font-size: 36px;
+  font-family: PlusjakartaSans_bold;
+}
+
+.card-sub-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.card-view {
+  color: #d0d4de;
+  background: #182835;
+  padding: 0 2rem !important;
+  border-radius: 20px;
+  height: fit-content;
+  margin: 10px !important;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: PlusjakartaSans_bold !important;
+}
+
+.launchPad-content {
+  margin: 2rem 0 !important;
+  padding: 1rem;
+}
+
+.info-wrap {
+  margin: 2rem 0 !important;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+
+@import "../../assets/Colors/colors.scss";
+
+.hyper-main-heading {
+  font-weight: 700;
+  font-size: 160px;
+}
+
+.hyper-launch-top {
+  text-align: center;
+}
+
+.launch-description {
+  text-align: center;
+  color: $title-color;
+  // position: relative;
+  // bottom: 20px;
+  font-size: 20px;
+}
+
+.world-container {
+  background-image: url("../../assets/image/hyperLaunch/WorldImg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160vh;
+}
+.each-product {
+  margin: 10px 5px !important;
+  display: flex;
+  justify-content: center;
+}
+.hyper-launch-intro {
+  // position: relative;
+  padding-top: 350px !important;
+  padding-bottom: 50px;
+}
+
+.blurContainer {
+  background: linear-gradient(
+    60.37deg,
+    rgba(255, 255, 255, 0.064) 31.29%,
+    rgba(110, 250, 235, 0.2) 74.69%
+  );
+  backdrop-filter: blur(34px);
+  border-radius: 20px;
+  padding: 30px 30px 35px 35px !important;
+  margin: 33rem 0 5rem 0 !important;
+  border: 2px solid;
+
+  border-image-source: linear-gradient(
+    89.79deg,
+    rgba(255, 255, 255, 0.14) 17.54%,
+    rgba(0, 0, 0, 0) 80.59%
+  );
+}
+
+.hyper-gateway {
+  padding: 0 20px 20px 0;
+}
+
+.hyper-end {
+  text-align: end;
+}
+
+.hyper-start {
+  text-align: start;
+}
+
+.token-available-image {
+  margin: 1rem 0 6rem 0 !important;
+}
+
+.cards-make-hyper {
+  color: $title-color;
+  font-size: 48px;
+  font-family: PlusjakartaSans_bold;
+}
+
+.hyper-card-view {
+  color: $title-color;
+  background: #182835;
+  padding: 0 3rem !important;
+  border-radius: 20px;
+  height: fit-content;
+  margin: 10px !important;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: PlusjakartaSans !important;
+}
+
+.desk-marign {
+  margin: 3rem 0;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .laun-det {
+    width: 70%;
+  }
+  .cards-title {
+    font-size: 21px;
+  }
+  .desk-marign {
+    margin: 0 0 !important;
+  }
+  .hyper-main-heading {
+    font-size: 47px !important;
+  }
+  .lan-info-container {
+    font-size: 20px !important;
+  }
+  .lan-info-header {
+    font-size: 20px !important;
+  }
+  .world-container {
+    background-image: url("../../assets/image/hyperLaunch/WorldMob.svg") !important;
+    background-size: unset !important;
+    height: unset;
+  }
+  .lan-description {
+    color: #d0d4de;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .hyper-launch-intro {
+    padding-top: 180px !important;
+  }
+  .blurContainer {
+    margin: 2rem 0 !important;
+    padding: 2rem !important;
+  }
+  .mob-fate-text {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .mob-gatesub {
+    margin-bottom: 20px;
+    font-size: 14px !important;
+  }
+  .hyper-gateway {
+    padding: 0 0 20px 0 !important;
+  }
+  .each-product {
+    padding: 5px !important;
+  }
+  .mob-view-card {
+    flex-wrap: wrap-reverse !important;
+    margin: 30px 0 !important;
+  }
+  .hyper-end {
+    text-align: center;
+  }
+
+  .hyper-start {
+    text-align: center;
+  }
+
+  .animationImgs {
+    width: 62%;
+  }
+  .remove-pad .MuiGrid-item {
+    padding-left: 0px !important;
+  }
+
+  .mob-img-title {
+    font-size: 24px;
+  }
+  .cards-make-hyper {
+    font-size: 14px;
+  }
+
+  .card-sub-title {
+    font-size: 14px;
+  }
+
+  .hyper-card-view {
+    height: 180px;
+    padding: 0 10px !important;
+    text-align: center;
+  }
+  .box-title {
+    font-size: 20px;
+  }
+  .mob-img-title {
+    font-size: 24px !important;
+  }
+  .hyperlaunch-defi {
+    text-align: start;
+  }
+}

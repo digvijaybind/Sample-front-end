@@ -1,0 +1,153 @@
+.blog-topics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.popular-heading {
+  color: #d0d4de;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: PlusjakartaSans_bold;
+}
+
+.link-list {
+  color: #d0d4de;
+  cursor: pointer;
+}
+
+.blog-box {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px !important;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+}
+
+.blogs-imgs {
+  width: 100%;
+  object-fit: cover;
+}
+
+.blogs-img {
+  width: 65%;
+
+  object-fit: cover;
+}
+
+.blogs-date {
+  color: linear-gradient(169.19deg, #22202e 8.02%, #252c32 109.11%);
+  font-size: 12px;
+  margin: 1rem 0;
+}
+
+.blogs-desg {
+  color: linear-gradient(169.19deg, #22202e 8.02%, #252c32 109.11%);
+  font-size: 18px;
+  font-weight: 600;
+  height: 75px;
+  display: inline-block;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blog-sub {
+  padding-right: 10px;
+  height: 60px;
+}
+
+.blog-profiles {
+  display: flex !important;
+  justify-content: space-between !important;
+  margin: 1rem 0 !important;
+}
+
+// .blog-sub-des{
+//     color: linear-gradient(169.19deg, #22202E 8.02%, #252C32 109.11%);
+//     font-size: 12px;
+// }
+
+.blog-read {
+  display: flex;
+  justify-content: flex-end;
+  a {
+    color: #22202e;
+    font-size: 12px;
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    span {
+      margin-left: 6px;
+      //   font-size: 12px;
+    }
+  }
+}
+
+.link-select {
+  color: #4770ff;
+  cursor: pointer;
+}
+
+.blog-height {
+  height: 200px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .career-header {
+    font-size: 32px !important;
+    text-align: start;
+  }
+  .popular-heading {
+    font-size: 1.5rem !important;
+  }
+  .blog-box {
+    margin: 0px 0px 20px 0px !important;
+  }
+  .blog-topics {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .link-select {
+    margin-right: 10px;
+    font-size: 0.8rem !important;
+    font-family: PlusjakartaSans_bold !important;
+  }
+  .link-list {
+    margin-right: 10px;
+    font-family: PlusjakartaSans_bold;
+    font-size: 0.7rem !important;
+  }
+  .career-Container {
+    padding: 2rem 0 !important;
+  }
+  .career-description {
+    text-align: start;
+  }
+  .popular-heading {
+    font-size: 14px !important;
+  }
+  .link-list {
+    font-size: 7.92px !important;
+  }
+  .link-select {
+    font-size: 7.92px !important;
+  }
+  .blog-bg {
+    background-size: cover !important;
+  }
+  .blog-popular {
+    .MuiGrid-item {
+      padding-left: 0px !important;
+    }
+  }
+  .blogs-desg {
+    font-size: 15.25px;
+  }
+  .blog-sub {
+    font-size: 10.16px;
+  }
+  .blog-height {
+    height: unset !important;
+  }
+}

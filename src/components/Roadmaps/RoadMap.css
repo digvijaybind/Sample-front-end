@@ -1,0 +1,312 @@
+.roadContainer {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;;
+    justify-content: center;
+    margin-top:170px !important;
+    margin-bottom:170px !important;
+}
+
+.showrighttop{
+    position: relative;
+    bottom: 40px;
+}
+
+.road-titles{
+    color: #D0D4DE !important;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.imageGrid {
+    display: grid;
+    justify-content: center;
+}
+.titleRoadmap{
+    color: #99F8D0;
+    font-weight: 700;
+font-size: 12px;
+line-height: 16px;
+
+}
+.Roadmapsubtitle{
+    font-family: 'PlusjakartaSans' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    
+    /* Main white */
+    
+    color: #D0D4DE;
+    
+
+}
+
+.overlap {
+    position: absolute;
+    display: flex;
+}
+
+.leftSide {
+    display: grid;
+    justify-content: flex-end;
+    position: relative;
+    top: 8rem;
+    /* padding-right: 2rem; */
+    margin-bottom: 6rem;
+}
+
+.rightSide {
+    display: grid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1rem;
+
+}
+
+.showPosition {
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+}
+
+.showTabposition {
+    position: relative;
+    /* left: 2rem; */
+    bottom: 50px;
+}
+.Roadmapsubtitle{
+    font-family: 'PlusjakartaSans' !important;
+    font-size: 14px;
+    font-weight: 400;
+    color: #D0D4DE;
+}
+
+.boxView {
+    color: #D0D4DE;
+    background: #182835;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    height: 300px;
+
+}
+
+.boxView div:first-child {
+    color: #99F8D0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.boxView>div {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'PlusjakartaSans';
+}
+
+.MiddleOne {
+    position: relative;
+    top: 5px !important;
+    right: 400px;
+
+}
+
+.showRightTab {
+    margin-top: 4rem;
+}
+
+.ellipseImg {
+    width: 2rem;
+}
+
+@media only screen and (max-width:1280px) {
+    .showPosition{
+    position: relative;
+    left: -19px !important;
+    bottom: 40px;
+    }
+    .boxView{
+     color: #D0D4DE;
+    background: #182835;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    }
+    .roadContainer {
+        margin-top: 170px !important;
+        margin-bottom: 170px !important;
+    }
+
+    .boxView>div {
+        font-size: 0.5rem;
+    }
+
+    .boxView {
+        padding: 1px !important;
+
+    }
+
+    .MiddleOne {
+        position: relative;
+        right: 386px;
+        width: 57% !important;
+        top: 0px !important;
+    }
+
+    .roadImage {
+        width: 65% !important;
+    }
+
+    .boxView {
+        padding: 10px 15px !important;
+    }
+
+
+    .showPosition {
+        position: relative;
+        left: 0px !important;
+
+        left: 40px;
+    }
+
+    .ellipseImg {
+        width: 18px !important;
+    }
+
+    .leftSide {
+        padding-right: 2rem;
+    }
+
+    .boxView {}
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1000px) {
+    .rightSide {
+        position: relative !important;
+        left: 1rem !important;
+    }
+
+    .showTabposition {
+        position: relative !important;
+        top: 6rem !important;
+        left: 5rem !important;
+    }
+
+    .roadContainer {
+        display: grid;
+        grid-template-columns: 22% 40% 30%;
+        justify-content: center;
+        margin-top:170px !important;
+        margin-bottom: 170px !important;
+    }
+
+    .showRightTab {
+        position: relative !important;
+        top: 6rem !important;
+    }
+
+    .leftSide {
+        padding-right: 1rem;
+    }
+}
+
+.containers {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containers .image1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  /* size of second image */
+  .containers .image1>img {
+    width: 100px;
+  }
+  
+  .containers .image2 {
+    width: 87%;
+  }
+
+  .desk-view{
+    display: block !important;
+}
+.mob-view{
+    display: none !important;
+}
+
+  @media screen and (min-width: 200px) and (max-width: 650px) {
+    .desk-view{
+        display: none !important;
+    }
+    .mob-view{
+        display: block !important;
+    }
+    .roadContainer{
+        position: relative;
+    }
+    .boxView{
+        padding: 10px !important;
+        height: 200px;
+        width: 95%;
+        background: linear-gradient(34.88deg, rgba(255, 255, 255, 0.15) 10.99%, rgba(135, 242, 231, 0.15) 91.81%) !important;
+    }
+    .showTabposition{
+        position: relative;
+    left: 0px;
+    top: 270px;
+    }
+    .boxView>div{
+        margin-bottom: 7px;
+    }
+    .showPosition {
+        position: relative;
+        left: 20px !important;
+        bottom: 60px;
+    }
+    .showrighttop{
+        position: relative;
+        /* bottom: 85px; */
+        top: 90px;
+        right: 30px;
+    }
+
+    .showRightTab{
+        position: relative;
+        top: 420px;
+        margin-top: 0px;
+    }
+    .roadContainer{
+        display: flex !important;
+
+    }
+
+    .leftSide{
+        position: absolute;
+    }
+    .rightSide{
+        position: absolute;
+    }
+    .boxView div:first-child{
+        height: 25px;
+    }
+    .boxView>div{
+        font-size: 9px;
+        margin-bottom: 1px !important;
+    }
+    .road-titles{
+        font-size: 10px;
+    }
+  }

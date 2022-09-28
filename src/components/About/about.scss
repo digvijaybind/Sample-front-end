@@ -1,0 +1,166 @@
+.about-whole-container {
+  margin: 2rem 0 0 0 !important;
+  font-family: PlusjakartaSans;
+}
+
+.about-header {
+  font-size: 64px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+  font-family: PlusjakartaSans_bold;
+}
+
+.about-description {
+  font-size: 15px;
+  color: #d0d4de;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.ab-in-content {
+  // text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  /* or 178% */
+
+  /* Main white */
+
+  font-family: "PlusjakartaSans";
+}
+
+.mis-tite {
+  color: #d0d4de;
+  font-size: 40px;
+  font-family: PlusjakartaSans_bold;
+  font-weight: 600;
+}
+
+.mission-text {
+  font-family: PlusjakartaSans !important;
+  color: #d0d4de;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.abt-mis-content {
+  // padding: 60px;
+}
+
+.abt-mis-Container {
+  margin: 2rem 0 !important;
+  // text-align: end;
+}
+
+.lap-ending {
+  text-align: end;
+}
+
+.profile-container {
+  background: linear-gradient(
+      89.79deg,
+      rgba(255, 255, 255, 0.14) 17.54%,
+      rgba(0, 0, 0, 0) 80.59%
+    ),
+    linear-gradient(
+      60.37deg,
+      rgba(255, 255, 255, 0.064) 31.29%,
+      rgba(110, 250, 235, 0.2) 74.69%
+    );
+  padding: 25px;
+  border-radius: 20px;
+  text-align: start;
+  margin: 0 33px !important;
+  height: fit-content;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.profile-name {
+  color: #d0d4de;
+  font-size: 23px;
+  font-weight: 600;
+  padding: 7px 0;
+}
+
+.profile-desg {
+  color: #989faa;
+  font-size: 17px;
+}
+
+.about-team {
+  padding-bottom: 50px !important;
+}
+
+.link-img {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 13%;
+}
+
+.abt-last {
+  margin: 3rem 0 !important;
+}
+
+.info-about-Container {
+  margin-top: 1rem !important;
+}
+
+.pro-cont {
+  // width: 70%;
+  margin: 20px 0;
+}
+
+.about-card {
+  margin: 10px !important;
+}
+
+.misabout-Container {
+  margin-top: 2rem !important;
+}
+.animationI {
+  height: 419px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 200px) and (max-width: 550px) {
+  .profile-container {
+    margin: 0 0 1rem 0 !important;
+  }
+  .info-about-Container {
+    margin-top: 2rem !important;
+  }
+  .lap-ending {
+    text-align: center;
+  }
+  .about-header {
+    font-size: 36px !important;
+    margin-bottom: 30px !important;
+  }
+  .animationI {
+    width: 80%;
+    height: unset !important;
+    padding-top: unset !important;
+  }
+  .vision-content {
+    flex-wrap: wrap-reverse !important;
+  }
+  .about-desgnation {
+    font-size: 7px !important;
+  }
+  .link-img {
+    padding-top: 10px;
+  }
+  .about-card {
+    margin: 0 5px !important;
+  }
+  .mobile-margin {
+    margin: 25px 0 !important;
+  }
+  .about-whole-container {
+    margin: 0 0 0 0 !important;
+  }
+}

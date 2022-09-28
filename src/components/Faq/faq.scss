@@ -1,0 +1,95 @@
+.faq-title {
+  font-size: 64px;
+  background: linear-gradient(88.49deg, #7afbe4 30.72%, #4a54f4 84.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600 !important;
+}
+
+.generic-container {
+  padding: 3rem 0;
+  font-family: PlusjakartaSans;
+}
+
+.collapse-container {
+  .ant-collapse {
+    background: transparent;
+    border: unset;
+    margin-bottom: 2rem;
+    .ant-collapse-item > .ant-collapse-header {
+      color: #d0d4de;
+      font-size: 24px;
+    }
+  }
+}
+
+.faq-bullets {
+  display: contents !important;
+}
+
+.faq-bullets-list {
+  font-size: 14px !important;
+}
+
+.panel-content {
+  .ant-collapse-content > .ant-collapse-content-box {
+    background: #0a0f1e !important;
+    color: #d0d4de;
+    font-family: PlusjakartaSans !important;
+  }
+  //   .ant-collapse-content {
+
+  //   }
+}
+
+.defi-services {
+  //   display: flex;
+  padding-left: 0px !important;
+}
+
+.defi-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .ant-collapse {
+    .ant-collapse-item > .ant-collapse-header {
+      color: #d0d4de;
+      font-size: 14px !important;
+    }
+  }
+  .ant-collapse-content > .ant-collapse-content-box {
+    font-size: 12px !important;
+  }
+  .faq-title {
+    font-size: 25px;
+  }
+  .faq-master {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+}
+
+.faq-master {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .faq-header {
+    text-align: center;
+  }
+  .faq-title {
+    font-size: 32px !important;
+  }
+  .faq-master {
+    .MuiGrid-item {
+      padding-left: 0 !important;
+    }
+  }
+  .faq-bullets-list {
+    font-size: 14px !important;
+  }
+}

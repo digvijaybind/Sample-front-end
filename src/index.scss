@@ -1,0 +1,17 @@
+@import "./css/layout.scss";
+@import "./css/responsive.scss";
+@import "./font.css";
+@import "./assets/Colors/colors.scss";
+
+body {
+  iframe {
+    position: unset !important;
+    z-index: unset !important;
+    display: none !important;
+  }
+}
+
+.main-container {
+  padding: 0px !important;
+  margin-top: 20px !important;
+}

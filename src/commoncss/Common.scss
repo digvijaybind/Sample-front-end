@@ -1,0 +1,210 @@
+@import "../assets/Colors/colors.scss";
+
+.cmn-title {
+  color: $title-color;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+  // line-height: 64px;
+}
+
+.cmn-title1 {
+  color: $title-color;
+  font-size: 44px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+  // line-height: 64px;
+}
+
+.cmn-title2 {
+  color: $title-color;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+.cmn-title12 {
+  color: $title-color;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-title3 {
+  color: $title-color;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+.cmn-title9 {
+  color: $title-color;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+
+.cmn-title5 {
+  color: $title-color;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+
+.cmn-title4 {
+  color: $title-color;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+
+.cmn-title6 {
+  color: $title-color;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+
+.cmn-title7 {
+  color: $title-color;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+.cmn-sub-title1 {
+  color: $sub-title;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title7 {
+  color: $title-color;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title2 {
+  color: $sub-title;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title3 {
+  color: $sub-title;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title4 {
+  color: $title-color;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title5 {
+  color: $sub-title;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title6 {
+  color: $sub-title;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.cmn-sub-title8 {
+  color: $title-color;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: PlusjakartaSans;
+}
+
+.font-gradient {
+  background: linear-gradient(88.49deg, #7afbe4 48.72%, #4a54f4 84.08%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700 !important;
+}
+
+.margin-small {
+  margin: 20px 0;
+}
+
+.box-title {
+  color: $title-color;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: PlusjakartaSans_bold;
+}
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+  .css-1naunia-MuiGrid-root {
+    width: 100% !important;
+  }
+  .css-1naunia-MuiGrid-root > .MuiGrid-item {
+    padding: 0px !important;
+  }
+
+  .cmn-title2 {
+    font-size: 14px;
+  }
+
+  .cmn-sub-title2 {
+    font-size: 14px;
+  }
+  .cmn-title12 {
+    color: $title-color;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: PlusjakartaSans;
+  }
+
+  .cmn-title2-mob {
+    font-size: 32px !important;
+  }
+
+  .cmn-title5 {
+    font-size: 14px;
+  }
+  .cmn-sub-title4 {
+    font-size: 12px !important;
+  }
+  .cmn-title {
+    font-size: 32px !important;
+  }
+  .cmn-title7 {
+    font-size: 9px !important;
+  }
+  .cmn-title3 {
+    font-size: 14px !important;
+  }
+  .cmn-title13 {
+    font-size: 24px !important;
+  }
+  .cmn-title1 {
+    font-size: 14px;
+  }
+  .cmn-sub-title8 {
+    font-size: 12px !important;
+  }
+}
+
+// @media screen and (min-width: 200px) and (max-width: 650px) {
+//   .css-1naunia-MuiGrid-root {
+//     width: 100% !important;
+//   }
+//   .css-1naunia-MuiGrid-root > .MuiGrid-item {
+//     padding: 0px !important;
+//   }
+//   .css-1k3kk29-MuiGrid-root>.MuiGrid-item{
+
+//   }
+// }

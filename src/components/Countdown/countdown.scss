@@ -1,0 +1,174 @@
+.body {
+  padding: 2rem 0;
+  border-radius: 12px;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  display: block;
+  line-height: 0px;
+  background-color: red;
+  @media (max-width: 767px) {
+    padding-left: 1rem;
+  }
+
+  @media (max-width: 500px) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.countdown {
+  display: flex;
+  justify-content: flex-start;
+  @media (max-width: 767px) {
+    justify-content: center;
+  }
+}
+
+.starrybanner {
+  position: absolute;
+  bottom: -80px;
+  width: 100%;
+  background-color: #00121d;
+  background-image: url("../../img/starrybg.png");
+  border: 1px solid #4770ff;
+  box-sizing: border-box;
+  box-shadow: -2px -19px 27px -11px #1472ff;
+  border-radius: 15px;
+  height: 175px;
+  justify-content: center;
+  color: white;
+    align-items: center;
+
+    .sub-row{
+      gap: 50px;
+      text-align: center;
+    }
+
+    @media (max-width: 550px) {
+      height: 125px;
+      bottom: -290px;
+      .sub-row{
+        gap: 18px;
+      }
+    }
+}
+
+.starryBannerRow {
+  h1 {
+    font-size: 64px;
+
+    @media (max-width: 550px) {
+      font-size: 28px;
+    }
+  }
+  
+}
+.subtitle {
+  color: #fff;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 2px;
+  position: relative;
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  //border-top: 1px solid white;
+
+  @media (max-width: 500px) {
+    width: 89px;
+  }
+
+  @media (max-width: 340px) {
+    width: 65px;
+    font-size: 10px;
+  }
+}
+
+.text {
+  font-family: "Barlow", sans-serif;
+  font-size: 90px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 120px;
+
+  @media (max-width: 500px) {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 340px) {
+    font-size: 52px;
+    height: 100px;
+  }
+}
+.title {
+  font-size: 27px;
+  color: white;
+  display: flex;
+  line-height: 15px;
+
+  @media (max-width: 767px) {
+    justify-content: center;
+    font-size: 18px;
+  }
+  @media (max-width: 500px) {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.countdownText {
+  display: flex;
+  width: 100%;
+  @media (max-width: 500px) {
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+}
+.bridgebutton {
+  background: rgba(0, 18, 29, 0.4);
+  border: 1px solid #4770ff;
+  box-sizing: border-box;
+  box-shadow: -2px -19px 27px -11px #1472ff;
+  border-radius: 15px;
+
+  max-width: 413px;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(276.83deg, rgba(70, 255, 188, 0.9) 4.69%, rgba(65, 212, 204, 0.827823) 18.2%, rgba(46, 67, 255, 0.585) 95.79%);
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.buttonText {
+  color: white;
+  font-size: 24px;
+  &:hover {
+    cursor: pointer;
+    font-weight: 700 !important;
+
+  }
+
+  @media only screen and (max-width: 450px) {
+    font-size: 16px;
+  }
+}
+
+.successWrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}

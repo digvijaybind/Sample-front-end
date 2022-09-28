@@ -1,0 +1,165 @@
+/**
+ * @file
+ * Countfigures styles
+ */
+@import "../../css/variables";
+@import "../../css/mixin";
+
+.auditedverified-wrapper {
+  float: left;
+  width: 100%;
+  // height: 950px;
+  // background: url('../../img/bluebackground.jpg')no-repeat;
+  padding: 4rem 0 4rem 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  @media only screen and (max-width: 767px) {
+    padding: 0px;
+  }
+  .tileslinkds {
+    float: left;
+    width: 100%;
+  }
+  .heading {
+    color: $font-white;
+  }
+  .partner-top {
+    margin-top: 2rem;
+  }
+  .partner-img {
+    max-width: 50%;
+  }
+  .auditedverified-cell {
+    float: left;
+    width: 100%;
+    background: #041153;
+    height: 182px;
+    cursor: pointer;
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-position: top center;
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 0;
+      z-index: -1;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.2);
+      -webkit-transition: none;
+      -moz-transition: none;
+      transition: none;
+    }
+    &:hover:after {
+      background: #ffffff;
+      transition: all 0.3s ease;
+      width: 120%;
+      background-color: rgba(255, 255, 255, 0);
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+  }
+}
+
+.auditswrapper {
+  background: url("../../img/starrybg.png");
+  border-radius: 18px;
+  // max-width: 1215px;
+  border: 1px solid #4770ff;
+  box-sizing: border-box;
+  box-shadow: -2px -19px 27px -11px #1472ff;
+  padding-top: 50px;
+  margin: 100px auto;
+  @media only screen and (max-width: 767px) {
+    margin: 0;
+  }
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 76px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .audit-image-wrapper {
+    background: rgba(0, 18, 29, 0.4);
+    border: 1px solid #4770ff;
+    box-sizing: border-box;
+    box-shadow: -2px -19px 27px -11px #1472ff;
+    border-radius: 15px;
+    // padding: 10px;
+  }
+
+  #col-left {
+    padding-right: 0;
+
+    @media only screen and (max-width: 991px) {
+      padding-right: 15px;
+
+    }
+  }
+
+  #col-right {
+    padding-left: 0;
+
+    @media only screen and (max-width: 991px) {
+      padding-left: 15px;
+
+    }
+  }
+
+  .bottom-item-wrapper {
+    background: #000000;
+    border: 1px solid #1d55c1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+
+    h3 {
+      padding-left: 63px;
+    }
+  }
+}
+
+.partnersContainer {
+  background: url("../../img/starrybg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0px 1px;
+  min-height: 735px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media only screen and (max-width: 767px) {
+    padding: 0px 55px;
+
+  }
+
+  h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+
+    @media only screen and (max-width: 767px) {
+      font-size: 40px;
+
+    }
+  }
+}
